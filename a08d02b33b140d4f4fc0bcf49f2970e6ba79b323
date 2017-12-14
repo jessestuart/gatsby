@@ -1,0 +1,12 @@
+[ver:1,total:2940]
+.gtm/terminal.app:1792,1513213200:1379,1513216800:413,r
+package.json:750,1513213200:469,1513216800:281,m
+.babelrc.js:156,1513213200:143,1513216800:13,m
+packages/gatsby-plugin-react-next/package.json:120,1513213200:120,m
+.eslintrc:45,1513213200:45,r
+.eslintrc.js:43,1513213200:30,1513216800:13,d
+CONTRIBUTING.md:12,1513213200:12,r
+lerna.json:7,1513213200:7,r
+packages/gatsby-source-wordpress/src/__tests__/normalize.js:5,1513213200:5,r
+packages/gatsby-source-wordpress/package.json:5,1513213200:5,r
+README.md:5,1513213200:5,r
