@@ -28,6 +28,8 @@ function resolvePlugin(pluginName, directory, type) {
   const plugin =
     resolve(`babel-${type}-${pluginName}`, directory) ||
     resolve(`babel-${type}-${pluginName}`, gatsbyPath) ||
+    resolve(`@babel/${pluginName}`) ||
+    resolve(`@babel/${type}-${pluginName}`) ||
     resolve(pluginName, directory) ||
     resolve(pluginName, gatsbyPath)
 
