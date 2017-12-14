@@ -1,3 +1,15 @@
 [ver:1,total:60]
 .gtm/terminal.app:48,1513216800:48,r
 packages/gatsby-plugin-react-next/package.json:12,1513216800:12,m
+
+[ver:1,total:60]
+.gtm/terminal.app:60,1513216800:60,r
+
+[ver:1,total:840]
+.gtm/terminal.app:684,1513216800:684,r
+.babelrc.js:39,1513216800:39,m
+packages/gatsby-plugin-react-next/.babelrc.js:39,1513216800:39,d
+.babelrc:35,1513216800:35,r
+package.json:20,1513216800:20,m
+packages/gatsby-plugin-react-next/.babelrc:16,1513216800:16,m
+packages/gatsby-plugin-react-next/.gitignore:7,1513216800:7,r
