@@ -3,3 +3,10 @@
 packages/gatsby/src/utils/babel-config.js:10,1513216800:10,m
 packages/gatsby/package.json:8,1513216800:8,m
 package.json:7,1513216800:7,r
+
+[ver:1,total:780]
+.gtm/terminal.app:594,1513216800:594,r
+packages/gatsby/src/utils/babel-config.js:135,1513216800:135,m
+packages/gatsby/package.json:35,1513216800:35,m
+package.json:10,1513216800:10,r
+.babelrc.js:6,1513216800:6,r
