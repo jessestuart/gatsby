@@ -25,7 +25,7 @@ function preset(context, options = {}) {
   return {
     presets: [
       [
-        r("babel-preset-env"),
+        r("@babel/preset-env"),
         Object.assign(
           {
             loose: true,
@@ -36,13 +36,13 @@ function preset(context, options = {}) {
           browser ? browserConfig : nodeConfig
         ),
       ],
-      r("babel-preset-react"),
-      r("babel-preset-flow"),
+      r("@babel/preset-react"),
+      r("@babel/preset-flow"),
     ],
     plugins: [
-      r("babel-plugin-transform-object-rest-spread"),
+      r("@babel/plugin-transform-object-rest-spread"),
       [
-        r("babel-plugin-transform-runtime"),
+        r("@babel/plugin-transform-runtime"),
         {
           // we are only polyfilling the node environment
           // so we need to enable the runtime replacements for the browser preset

@@ -1,29 +1,34 @@
 {
   "name": "js-gatsby-plugin-react-next",
-  "version": "1.0.8",
   "description": "Use React 16 with your Gatsby v1 site",
-  "main": "index.js",
-  "scripts": {
-    "build": "babel src --out-dir . --ignore __tests__",
-    "watch": "babel -w src --out-dir . --ignore __tests__",
-    "prepublish": "cross-env NODE_ENV=production npm run build"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "version": "1.1.0",
   "author": [
     "Kyle Mathews <mathews.kyle@gmail.com>",
     "Jesse Stuart <hi@jessestuart.com>"
   ],
-  "license": "MIT",
   "dependencies": {
-    "babel-runtime": "^6.26.0",
     "core-js": "^2.5.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "v7.0.0-beta.34",
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-flow": "^7.0.0-beta.34",
+    "@babel/preset-react": "^7.0.0-beta.34",
+    "@babel/runtime": "v7.0.0-beta.34",
     "cross-env": "^5.1.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore __tests__",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore __tests__"
   }
 }
