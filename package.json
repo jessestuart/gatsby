@@ -63,7 +63,9 @@
     "test:update": "jest --updateSnapshot",
     "test:watch": "jest --watch",
     "test_bkup": "npm run lint && npm run test-node && npm run test-integration",
-    "watch": "lerna run watch --no-sort --stream --concurrency 999"
+    "watch": "lerna run watch --no-sort --stream --concurrency 999",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "workspaces": [
     "packages/*"
@@ -71,5 +73,9 @@
   "eslintIgnore": [
     "interfaces",
     "**/__tests__/fixtures/"
-  ]
+  ],
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.83.0"
+  }
 }
